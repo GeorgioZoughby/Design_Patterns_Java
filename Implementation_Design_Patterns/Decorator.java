@@ -77,7 +77,6 @@ class Decaf extends Beverage{
 abstract class CondimentDecorator extends Beverage {
     Beverage bev;
     abstract String getDescription();
-
 };
 
 class Milk extends CondimentDecorator{
