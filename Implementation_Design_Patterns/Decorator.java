@@ -3,7 +3,7 @@ package Implementation_Design_Patterns;
 public class Decorator {
     public static void main(String args[]) {
         Beverage beverage = new Espresso();
-        System.out.println(beverage.getDescription() + " $" + beverage.cost());
+        System.out.println(beverage.getDescription() + " $ " + beverage.cost());
 
         Beverage beverage2 = new DarkRoast();
         beverage2 = new Mocha(beverage2);
